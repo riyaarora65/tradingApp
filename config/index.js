@@ -4,13 +4,5 @@ module.exports = {
     "username": process.env.USERNAME,
     "password": process.env.PASSWORD,
     "dialect": "mysql",
-    "database":"trading"
+    "database": process.env.DBNAME
 }
-
-// arora@123
-// "password": "sqlriya@23",
-//    "username": "root",
-// "host": "tradingdb-test.mysql.database.azure.com",
-// "username": "Riya@tradingdb-test",
-// "password": "arora@123",
-
